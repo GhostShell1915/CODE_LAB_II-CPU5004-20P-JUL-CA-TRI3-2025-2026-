@@ -1,0 +1,381 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/ofxAssimpAnimation.cpp">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/ofxAssimpTexture.cpp">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/ofxAssimpAnimationMixer.cpp">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/ofxAssimpScene.cpp">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/ofxAssimpMesh.cpp">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/ofxAssimpBounds.cpp">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/ofxAssimpNode.cpp">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/ofxAssimpSkeleton.cpp">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/Source/ofxAssimpSrcAnimKeyCollection.cpp">
+			<Filter>addons/ofxAssimp/src/Source</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/Source/ofxAssimpSrcNode.cpp">
+			<Filter>addons/ofxAssimp/src/Source</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/Source/ofxAssimpSrcScene.cpp">
+			<Filter>addons/ofxAssimp/src/Source</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/Source/ofxAssimpSrcMesh.cpp">
+			<Filter>addons/ofxAssimp/src/Source</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/Source/ofxAssimpSrcBone.cpp">
+			<Filter>addons/ofxAssimp/src/Source</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxAssimp/src/ofxAssimpBone.cpp">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxAssimp/src">
+			<UniqueIdentifier>{240B6370--8BB-4-49-3D-A-FC5-8658747645C0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxAssimp/src/Source">
+			<UniqueIdentifier>{A3FC5CEC--369-9-48-75-8-34F-910B1CACF781}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxAssimpModelLoader/libs/assimp/include/assimp">
+			<UniqueIdentifier>{80B5B202--1DC-D-49-DF-9-E32-38F60FCC2409}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler">
+			<UniqueIdentifier>{1D1C2EEA--605-0-41-8C-B-FA9-ABBF8B0EC656}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxAssimpModelLoader/libs/assimp/include/assimp/port/AndroidJNI">
+			<UniqueIdentifier>{492724E5--0B4-F-4F-3E-9-843-7E66E4DB3E15}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/ofxAssimpBounds.h">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/ofxAssimpTexture.h">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/ofxAssimpSkeleton.h">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/ofxAssimpAnimationMixer.h">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/ofxAssimpNode.h">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/ofxAssimpBone.h">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/ofxAssimpMesh.h">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/ofxAssimp.h">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/Source/ofxAssimpSrcBone.h">
+			<Filter>addons/ofxAssimp/src/Source</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/Source/ofxAssimpSrcScene.h">
+			<Filter>addons/ofxAssimp/src/Source</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/Source/ofxAssimpSrcMesh.h">
+			<Filter>addons/ofxAssimp/src/Source</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/Source/ofxAssimpSrcAnimKeyCollection.h">
+			<Filter>addons/ofxAssimp/src/Source</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/Source/ofxAssimpSrcNode.h">
+			<Filter>addons/ofxAssimp/src/Source</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/ofxAssimpScene.h">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/ofxAssimpUtils.h">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimp/src/ofxAssimpAnimation.h">
+			<Filter>addons/ofxAssimp/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/version.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/postprocess.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/commonMetaData.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/metadata.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/qnan.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Exceptional.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/LogStream.hpp">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/vector3.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/StandardShapes.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/SmallVector.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/XMLTools.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/vector2.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/ColladaMetaData.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/mesh.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/quaternion.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/LineSplitter.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/cfileio.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Subdivision.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/SceneCombiner.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Exporter.hpp">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Base64.hpp">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/NullLogger.hpp">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/CreateAnimMesh.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/SGSpatialSort.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Importer.hpp">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/types.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/MemoryIOWrapper.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/ObjMaterial.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/DefaultLogger.hpp">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/GenericProperty.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/ByteSwapper.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/fast_atof.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Vertex.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/LogAux.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/IOStream.hpp">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/cexport.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/material.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/texture.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/ParsingUtils.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/pbrmaterial.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler/pushpack1.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler/poppack1.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler/pstdint.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/anim.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/DefaultIOStream.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/StringComparison.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/SpatialSort.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/IOSystem.hpp">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/port/AndroidJNI/BundledAssetIOSystem.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp/port/AndroidJNI</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/port/AndroidJNI/AndroidJNIIOSystem.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp/port/AndroidJNI</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Profiler.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/SkeletonMeshBuilder.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Hash.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/BlobIOSystem.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/IOStreamBuffer.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/RemoveComments.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/importerdesc.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/DefaultIOSystem.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/StringUtils.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/MathFunctions.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Logger.hpp">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/ZipArchiveIOSystem.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/defs.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/BaseImporter.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/StreamWriter.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/matrix4x4.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/ProgressHandler.hpp">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Bitmap.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/GltfMaterial.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/aabb.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/StreamReader.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/SmoothingGroups.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/camera.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/TinyFormatter.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/cimport.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/ai_assert.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/scene.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/color4.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/matrix3x3.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/AssertHandler.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/light.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/revision.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/config.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxAssimpModelLoader/libs/assimp/include/assimp/XmlParser.h">
+			<Filter>addons/ofxAssimpModelLoader/libs/assimp/include/assimp</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

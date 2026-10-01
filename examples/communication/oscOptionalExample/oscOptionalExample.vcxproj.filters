@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/src/ofxOscBundle.cpp">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/src/ofxOscMessage.cpp">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/src/ofxOscParameterSync.cpp">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/src/ofxOscSender.cpp">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/src/ofxOscReceiver.cpp">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.cpp">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.cpp">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/libs/oscpack/src/ip/win32/UdpSocket.cpp">
+			<Filter>addons/ofxOsc/libs/oscpack/src/ip/win32</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/libs/oscpack/src/ip/win32/NetworkingUtils.cpp">
+			<Filter>addons/ofxOsc/libs/oscpack/src/ip/win32</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp">
+			<Filter>addons/ofxOsc/libs/oscpack/src/ip</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxOsc/src">
+			<UniqueIdentifier>{CF51C842--436-B-4D-56-9-660-82875BBB454C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxOsc/libs/oscpack/src/osc">
+			<UniqueIdentifier>{B6E41DA4--70A-1-48-48-9-B27-C1ED4EC168C5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxOsc/libs/oscpack/src/ip">
+			<UniqueIdentifier>{14EDCEB7--23C-F-48-F0-8-C5A-FBDF3AAC605D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxOsc/libs/oscpack/src/ip/win32">
+			<UniqueIdentifier>{43ABCB5E--D8B-E-4C-B6-8-A37-06E2F6EEDC96}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/src/ofxOscSender.h">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/src/ofxOscParameterSync.h">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/src/ofxOsc.h">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/src/ofxOscBundle.h">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/src/ofxOscArg.h">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/src/ofxOscReceiver.h">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/src/ofxOscMessage.h">
+			<Filter>addons/ofxOsc/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/osc/OscException.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/osc/MessageMappingOscPacketListener.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/osc</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/ip</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/ip</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/ip</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/ip</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxOsc/libs/oscpack/src/ip/TimerListener.h">
+			<Filter>addons/ofxOsc/libs/oscpack/src/ip</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

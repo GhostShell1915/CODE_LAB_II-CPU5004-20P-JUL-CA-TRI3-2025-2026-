@@ -1,0 +1,7 @@
+name = "projectGenerator"
+version = ""
+buildTime = "2025-04-02 T23:29:13Z"
+type = ""
+gitUrl = ""
+binary = "projectGenerator.exe"
+binarySha = "2d7c7f301fd2e59ed0f172c7e861af62b0e126d877bb066656c277624079fc57"

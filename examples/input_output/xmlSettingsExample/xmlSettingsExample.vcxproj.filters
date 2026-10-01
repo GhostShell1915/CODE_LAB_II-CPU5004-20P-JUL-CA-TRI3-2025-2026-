@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp">
+			<Filter>addons/ofxXmlSettings/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxXmlSettings/libs/tinyxml.cpp">
+			<Filter>addons/ofxXmlSettings/libs</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp">
+			<Filter>addons/ofxXmlSettings/libs</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp">
+			<Filter>addons/ofxXmlSettings/libs</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxXmlSettings/src">
+			<UniqueIdentifier>{81480BAE--F6B-A-42-A3-8-1F3-986D7EA2B70A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxXmlSettings/libs">
+			<UniqueIdentifier>{FCA16ACD--0D0-D-42-AD-B-D29-54535ED344BA}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxXmlSettings/src/ofxXmlSettings.h">
+			<Filter>addons/ofxXmlSettings/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxXmlSettings/libs/tinyxml.h">
+			<Filter>addons/ofxXmlSettings/libs</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

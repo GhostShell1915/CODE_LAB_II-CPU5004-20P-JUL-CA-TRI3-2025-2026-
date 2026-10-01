@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxVectorGraphics/src/ofxVectorGraphics.cpp">
+			<Filter>addons/ofxVectorGraphics/src</Filter>
+		</ClCompile>
+		<ClCompile Include="../../../addons/ofxVectorGraphics/libs/CreEPS.cpp">
+			<Filter>addons/ofxVectorGraphics/libs</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxVectorGraphics/src">
+			<UniqueIdentifier>{0A8A403C--0CB-F-49-12-9-D8A-EC247A405DD1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons/ofxVectorGraphics/libs">
+			<UniqueIdentifier>{514B07BF--DCC-3-41-4F-A-8E9-0FFB3EEF784F}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxVectorGraphics/src/ofxVectorGraphics.h">
+			<Filter>addons/ofxVectorGraphics/src</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxVectorGraphics/libs/CreEPS.hpp">
+			<Filter>addons/ofxVectorGraphics/libs</Filter>
+		</ClInclude>
+		<ClInclude Include="../../../addons/ofxVectorGraphics/libs/CreEPS_Types.hpp">
+			<Filter>addons/ofxVectorGraphics/libs</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

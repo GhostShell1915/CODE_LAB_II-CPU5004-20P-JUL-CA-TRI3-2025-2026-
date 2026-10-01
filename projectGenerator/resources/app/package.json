@@ -1,0 +1,22 @@
+{
+  "name": "projectGenerator",
+  "productName": "projectGenerator",
+  "version": "0.95.0",
+  "description": "Build electron GUI openFrameworks projectGenerator",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "github:openframeworks/projectGenerator",
+  "author": {
+    "name": "zach lieberman",
+    "url": "https://openframeworks.cc"
+  },
+  "engines": {
+    "node": ">=23.9.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.32",
+    "modclean": "^3.0.0-beta.1",
+    "moniker": "^0.1.2",
+    "n-readlines": "^1.0.1"
+  }
+}

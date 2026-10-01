@@ -1,0 +1,8 @@
+.vs/
+*.db
+*.lib
+*.exe
+Debug/
+Release/
+bin/
+obj/
