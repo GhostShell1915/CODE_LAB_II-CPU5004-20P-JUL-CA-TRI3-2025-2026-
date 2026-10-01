@@ -1,4 +1,4 @@
- Weather_APP - Code Lab II Assignment
+ Weather_APP - Code Lab II Assessment 2
 
 A custom Weather Application developed using the openFrameworks creative coding toolkit inside Visual Studio 2022.
 
