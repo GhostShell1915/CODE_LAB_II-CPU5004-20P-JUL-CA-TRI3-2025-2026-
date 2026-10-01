@@ -8,6 +8,8 @@
     \|_______\|__|\|__|    \|__\|__|\|_______|                                              
                                               
 ```
+Thanks
+Special thanks to the openFrameworks community for providing the core framework and to our module leader for the guidance throughout the Code Lab II course.
 
 - 2bbb
 - Aaron Freedman
